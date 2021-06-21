@@ -1,0 +1,84 @@
+.side{
+	width: 100%;
+	height: 6.5vh;
+	background-color: black;
+	color: white;
+	padding: 0 5px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.closebtn {
+	font-family: arial;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+body{
+	background-image: url('../images/bg1.jpg');
+	width: 100%;
+	background-size: 100% 100%;
+	height: 100vh;
+	overflow: auto;
+}
+.ako{
+	margin-left: 20%;
+}
+
+.menu .active{
+	background: linear-gradient(0deg,#6dd1ff,#20b7ff);
+	text-decoration: underline solid #00f700;
+}
+.menu a{
+	color: white;
+	padding: 10px 30px;
+	text-decoration: none;
+	font-size: 12px;
+	background: rgba(0,0,0,0.1);
+	font-family: verdana;
+}
+.menu{
+	background: rgba(0,0,0);
+	margin:0;
+	padding: 10px 5px;
+	text-align: right;
+	margin-right: 20px;
+	position: absolute;
+	width: 100%;
+}
+.menu a:hover{
+	background: linear-gradient(0deg,#6dd1ff,#20b7ff);
+	transition:1s;
+	box-shadow: 0 0 10px rgba(32,183,255,1),0 0 20px rgba(32,183,255,1),0 0 100px rgba(32,183,255,0.8);
+}

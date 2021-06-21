@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bayan ng Villasis</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<div class="menu">
+	<div class="ako" >
+			<a href="index.html" class="active">HOME</a>
+			<a href="gallery.html">TOURIST SPOT</a>
+			<a href="about.html">HISTORY</a>		
+	</div>
+</div>
+		<div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+			  <a href="index.html">HOME</a>
+			<a href="gallery.html">TOURIST SPOT</a>
+			<a href="about.html">HISTORY</a>		
+		</div>
+		<div class="side"><span style="font-size:30px;cursor:pointer" onclick="openNav()">☰ Home</span></div>
+			<script>
+				function openNav() {
+					    document.getElementById("mySidenav").style.width = "250px";
+				}
+
+				function closeNav() {
+					    document.getElementById("mySidenav").style.width = "0";
+				}
+			</script>
+	
+</body>
+</html>

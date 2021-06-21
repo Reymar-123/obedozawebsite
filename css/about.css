@@ -1,0 +1,152 @@
+.side{
+	width: 100%;
+	height: 6.5vh;
+	background-color: black;
+	color: white;
+	padding: 0 5px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.closebtn {
+	font-family: arial;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.ako{
+	margin-left: 20%;
+}
+.menu{
+	background: rgba(0,0,0);
+	margin:0;
+	padding: 10px 5px;
+	text-align: right;
+	margin-right: 20px;
+	position: absolute;
+	width: 100%;
+}
+.cnt img{
+	height: 250px;
+	width: 400px;
+	margin-top: 15px;
+}
+body{
+	background-image: url('../images/bg1.jpg');
+	width: 100%;
+	background-size: cover;
+	height: 100vh;
+	overflow: auto;
+}
+.body{
+    float: right;
+    margin-right: 20px;
+    border:2px solid #00f700;;
+    margin-top: 25px;
+    width: 31.62%;
+    height: 86%;
+    background: rgba(0,0,0,0.7);
+    padding: 14px 5px;
+    box-shadow:0px 15px 20px 0px rgba(0,0,0,0.2),0px 25px 30px 0px rgba(0,0,0,0.19);
+}
+.menu .active{
+    background: linear-gradient(0deg,#6dd1ff,#20b7ff);
+    text-decoration: underline solid #00f700;
+}
+.menu a{
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 12px;
+    background: rgba(0,0,0,0.1);
+    font-family: verdana;
+}
+.menu a:hover{
+    background: linear-gradient(0deg,#6dd1ff,#20b7ff);
+    transition:1s;
+    box-shadow: 0 0 10px rgba(32,183,255,1),0 0 20px rgba(32,183,255,1),0 0 100px rgba(32,183,255,0.8);
+}
+.cnt .h1{
+    padding: 0;
+    font-family: Eras Bold ITC;
+    font-size: 30px;
+    margin-top:0px;
+    color: white;
+    background: rgba(0,0,0,0.6);
+    line-height: 1;
+}
+.cnt .h2{
+    margin-top: 0px;
+    color: white;
+    font-size: 20px;
+}
+.cnt button{
+    width: 65%;
+    margin-top:0px;
+    color: white;
+    background: radial-gradient(#5f4b73,#244063,black); 
+    border-color:  white rgba(0,0,0,0.9) ;
+    border-style: solid;
+    padding: 0px 20px;
+    cursor: pointer;
+    transition:0.5s;
+}
+.cnt button:hover{
+    background: linear-gradient(0deg,#6dd1ff,#20b7ff);
+    letter-spacing: 5px;
+    transition:0.5s;
+    box-shadow: 0 0 10px rgba(32,183,255,1),0 0 20px rgba(32,183,255,1),0 0 100px rgba(32,183,255,0.8);
+}
+#web{
+    font-family: Candara;
+    font-size: 20px;
+}
+.cnt a{
+    text-decoration: none;
+}
+ 
+.c-content-box{
+  max-width: 1250px;
+  position: relative;
+  display: block;
+  font-size: 20px;
+  top: 1050px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(255,255,255,.4);
+  box-shadow: 0 15px rgba(0,0,0,.2);
+  padding: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+
+}
